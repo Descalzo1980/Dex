@@ -1,0 +1,50 @@
+# Xcode
+#
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+
+# Swift Package Manager
+#
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+#
+Pods/
+
+# Carthage
+#
+Carthage/Build/
+
+# Accio dependency management
+#
+Dependencies/
+.accio/
+
+# fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Code Injection
+#
+iOSInjectionProject/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Other
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
