@@ -67,8 +67,8 @@ struct FetchedPokemon: Decodable {
         while !statsContainer.isAtEnd {
             let stateDictionaryContainer = try statsContainer.nestedContainer(keyedBy: CodingKeys.StatDictionaryKeys.self)
             
-            let stat = try stateDictionaryContainer.decode(String.self, forKey: .baseStat)
-            decodedTypes.append(stat)
+            let stat = try stateDictionaryContainer.decode(Int16.self, forKey: .baseStat)
+            decodedStats.append(stat)
         }
     
         
