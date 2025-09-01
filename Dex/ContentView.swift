@@ -148,9 +148,6 @@ struct ContentView: View {
                 }
             }
         }
-//        .task {
-//            getPokemon()
-//        }
     }
     
     private func getPokemon(from id: Int) {
